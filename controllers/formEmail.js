@@ -35,6 +35,7 @@ Email.sendMail(emailEnvio, function(error, info){
          return res.status(400).json({
             error: true,
             msg: "Não foi possivel enviar o email!",
+            erro: error
           });
     }
 
