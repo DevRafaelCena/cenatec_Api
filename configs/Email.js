@@ -1,12 +1,10 @@
 var nodemailer = require('nodemailer')
 
 const email = nodemailer.createTransport({
-    service:'gmail',  
-    host: "smtp.umbler.com",
-    port: "587",  
+    service:'gmail',    
     auth: {
-        user: "comercial@cenatecnologia.com.br",
-        pass: "Sofia@090209"
+        user: "contatocenatecnologia@gmail.com",
+        pass: "SOFIA090209"
     },
     
        
