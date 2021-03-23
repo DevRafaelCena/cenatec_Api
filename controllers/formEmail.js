@@ -16,7 +16,7 @@ let formEmail = {
         console.log(req.body)
         console.log(req)
         let emailEnvio ={
-            from: '"Realizando contato"<'+ email +">", // sender address (who sends)
+            from: 'comercial@cenatecnologia.com.br',  // sender address (who sends)
             to: 'cenatec@outlook.com, rafael.cena@hotmail.com , contatocenatecnologia@gmail.com', // list of receivers (who receives)
             subject: 'Contato subject', // Subject line
             text: 'Email de contato', // plaintext body
